@@ -1,0 +1,100 @@
+# ==============================================================================
+# RUVO Marine India — robots.txt
+# Comprehensive Search Visibility & AI Agent Scraping Directives
+# Core Target Keywords: 
+#   - Aqua Kart, Aquakart, Aquacart, Aqua Cart, Aquakarting, Water Go-Kart, Waterkart
+#   - Jet Ski, Jetski, Electric Jet Ski India, Mini Jet Ski, Battery Jet Ski, PWC India
+#   - Water Jet, Waterjet, Hydrojet, Hydro Jet, Electric Hydro Jet, Jet Drive
+#   - Sea-Doo Spark Alternative, Yamaha WaveRunner Alternative, Yacht Tender Jet Ski
+#   - Water Sports Business India, Aqua Kart Rental Goa, Kerala Water Sports
+# Geographic Focus: India (en-IN) | Pan-India Water Sports & Marine Fleet
+# Official Contact: Suresh Reddy (+91 90199 40045 / sureshreddy.per@gmail.com)
+# Price: ₹8L – ₹10 Lakhs (Ex-Showroom India)
+# ==============================================================================
+
+# General Web Search Engines (Google, Bing, Yahoo, DuckDuckGo, Baidu, Yandex)
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /Images/
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap.xml
+Disallow: /scratch/
+Crawl-delay: 0
+
+# OpenAI (ChatGPT, GPTBot, SearchGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude Search, ClaudeBot)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google Search & Google Gemini AI
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI Engine
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence & Applebot
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Amazon AI & Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Diffbot AI Web Extractor
+User-agent: Diffbot
+Allow: /
+
+# Common Crawl (Foundation Corpus for LLM Training & Retrieval)
+User-agent: CCBot
+Allow: /
+
+# Sitemaps & Machine-Readable AI Knowledge
+Sitemap: https://ruvo.dpdns.org/sitemap.xml
+Sitemap: https://ruvo.dpdns.org/llms.txt
+

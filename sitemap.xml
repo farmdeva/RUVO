@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Primary Canonical Landing Page -->
+  <url>
+    <loc>https://ruvo.dpdns.org/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Hero Image -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/hero-watercraft-calm.png</image:loc>
+      <image:title>RUVO — India's First Manufactured Electric Jet Ski, Aqua Kart &amp; Water Go-Kart</image:title>
+      <image:caption>RUVO electric personal watercraft with 12 kW water-jet / hydro-jet propulsion on Indian waters.</image:caption>
+    </image:image>
+    
+    <!-- Action Speed Image -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/experience-action-speed.png</image:loc>
+      <image:title>RUVO Aqua Kart Slalom Carving — 30 to 40 km/h Water Go-Kart</image:title>
+      <image:caption>High-speed electric aqua kart carving through open water with instant 12 kW hydrojet thrust.</image:caption>
+    </image:image>
+
+    <!-- Side Profile View -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/view-profile.png</image:loc>
+      <image:title>RUVO Electric Jet Ski Side Profile and Hydrodynamic Hull</image:title>
+      <image:caption>220 cm compact rotomolded PE watercraft manufactured in India for water sports.</image:caption>
+    </image:image>
+
+    <!-- Front Bow View -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/view-bow.png</image:loc>
+      <image:title>RUVO Electric Jet Ski Front Bow and Windshield Cowl</image:title>
+      <image:caption>Front V-hull chines and aerodynamic cockpit cowl of India's first manufactured electric jet ski.</image:caption>
+    </image:image>
+
+    <!-- Hydro Jet Propulsion Image -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/propulsion-jet-power.png</image:loc>
+      <image:title>12 kW Direct-Drive Water Jet &amp; Hydrojet Propulsion</image:title>
+      <image:caption>Enclosed water jet propulsion system delivering safe, propeller-free marine thrust in Indian waters.</image:caption>
+    </image:image>
+
+    <!-- Cockpit & Dash View -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/view-dash.png</image:loc>
+      <image:title>RUVO Aqua Kart Steering Wheel and Digital Helm</image:title>
+      <image:caption>Automotive-style three-spoke steering wheel providing razor-sharp water go-kart handling.</image:caption>
+    </image:image>
+
+    <!-- Overhead Cockpit View -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/view-overhead.png</image:loc>
+      <image:title>RUVO 5.8 kWh Ternary Lithium Central Battery Bay</image:title>
+      <image:caption>Low center of gravity battery mounting with quick-release safety buckle latches.</image:caption>
+    </image:image>
+
+    <!-- Aft Swim Platform -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/view-swim-platform.png</image:loc>
+      <image:title>RUVO Teak Aft Boarding Platform and Cushioned Hatch</image:title>
+      <image:caption>Integrated teak swim deck and diamond-stitched marine seat cushion for effortless water boarding.</image:caption>
+    </image:image>
+
+    <!-- Sunset Lifestyle Image -->
+    <image:image>
+      <image:loc>https://ruvo.dpdns.org/assets/images/enquiry-sunset-adventure.png</image:loc>
+      <image:title>RUVO Sunset Water Adventure — Electric Jet Ski India</image:title>
+      <image:caption>Luxury electric personal watercraft adventure for Indian coastal resorts and lake clubs.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Deep Section Anchors for Search Engines -->
+  <url>
+    <loc>https://ruvo.dpdns.org/#product</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#form-function</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#propulsion</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#viewer</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#specifications</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#faq</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#search-index</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ruvo.dpdns.org/#enquiry</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
+
