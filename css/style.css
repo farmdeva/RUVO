@@ -168,12 +168,43 @@ input, textarea, select {
 .header-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  text-decoration: none;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.header-brand:hover {
+  opacity: 0.96;
+}
+
+.header-brand:hover .brand-crest-icon {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 12px rgba(255, 85, 0, 0.6));
+}
+
+.brand-crest-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-smooth), filter var(--transition-smooth);
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+
+.brand-title-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: center;
 }
 
 .brand-logo-text {
   font-family: var(--font-serif);
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: 0.28em;
   font-weight: 600;
   text-transform: uppercase;
@@ -183,12 +214,37 @@ input, textarea, select {
 }
 
 .brand-logo-dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: var(--accent-orange);
   margin-left: 6px;
-  box-shadow: 0 0 10px var(--accent-orange);
+  box-shadow: 0 0 8px var(--accent-orange);
+}
+
+.brand-tagline-micro {
+  font-family: var(--font-sans);
+  font-size: 7.5px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.footer-brand-lockup .brand-crest-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.footer-brand-lockup .brand-logo-text {
+  font-size: 26px;
+}
+
+.footer-brand-lockup .brand-tagline-micro {
+  font-size: 8.5px;
+  letter-spacing: 0.24em;
+  color: var(--accent-orange);
 }
 
 .header-nav {

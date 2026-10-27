@@ -243,7 +243,12 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22 100% 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <!-- Brand Favicon & Touch Icons -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 
@@ -262,8 +267,14 @@
        ======================================================================== -->
   <header class="site-header" id="site-header">
     <a href="#hero" class="header-brand" aria-label="RUVO Home">
-      <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
-      <span class="brand-logo-dot"></span>
+      <img src="assets/images/logo-mark.svg" alt="RUVO Logo Emblem" class="brand-crest-icon" width="36" height="36">
+      <div class="brand-title-wrap">
+        <div class="brand-title-row">
+          <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
+          <span class="brand-logo-dot"></span>
+        </div>
+        <span class="brand-tagline-micro">Electric Watercraft</span>
+      </div>
     </a>
 
     <nav class="header-nav" aria-label="Main Navigation">
@@ -294,8 +305,14 @@
   <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
     <div>
       <div class="header-brand" style="margin-bottom: 40px;">
-        <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
-        <span class="brand-logo-dot"></span>
+        <img src="assets/images/logo-mark.svg" alt="RUVO Logo Emblem" class="brand-crest-icon" width="36" height="36">
+        <div class="brand-title-wrap">
+          <div class="brand-title-row">
+            <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
+            <span class="brand-logo-dot"></span>
+          </div>
+          <span class="brand-tagline-micro">Electric Watercraft</span>
+        </div>
       </div>
       <ul class="mobile-nav-links">
         <li><a href="#product" class="nav-link mobile-nav-link">Product</a></li>
@@ -728,6 +745,13 @@
           <p style="font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.2em; color: var(--accent-orange); text-transform: uppercase;">
             &mdash; Revolutionizing Indian Water Sports
           </p>
+          <div class="brand-emblem-showcase" style="margin-top: 32px; display: inline-flex; align-items: center; gap: 16px; padding: 14px 20px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px;">
+            <img src="assets/images/logo-mark.svg" alt="RUVO Emblem" width="46" height="46" style="filter: drop-shadow(0 0 10px rgba(255, 85, 0, 0.5));">
+            <div>
+              <div style="font-family: var(--font-serif); font-size: 16px; letter-spacing: 0.2em; font-weight: 700; color: #fff;">RUVO EMBLEM</div>
+              <div style="font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.18em; color: var(--accent-orange); text-transform: uppercase;">Aero-Hydrofoil Crest</div>
+            </div>
+          </div>
         </div>
 
         <div class="brand-narrative-col">
@@ -1251,10 +1275,16 @@
     <div class="footer-inner">
       <div class="footer-top-grid">
         <div class="footer-brand-col">
-          <div class="header-brand">
-            <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
-            <span class="brand-logo-dot"></span>
-          </div>
+          <a href="#hero" class="header-brand footer-brand-lockup" aria-label="RUVO Home" style="margin-bottom: 22px;">
+            <img src="assets/images/logo-mark.svg" alt="RUVO Logo Emblem" class="brand-crest-icon" width="42" height="42">
+            <div class="brand-title-wrap">
+              <div class="brand-title-row">
+                <span class="brand-logo-text" data-bind="brand-name">RUVO</span>
+                <span class="brand-logo-dot"></span>
+              </div>
+              <span class="brand-tagline-micro">Electric Watercraft • India</span>
+            </div>
+          </a>
           <p class="footer-brand-desc">
             India's first manufactured electric jet ski and aqua kart personal watercraft. Engineered for silence, agility, zero emissions, and modern marine luxury.
           </p>

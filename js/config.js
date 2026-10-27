@@ -14,6 +14,9 @@ const RUVO_CONFIG = {
     category: "India's First Manufactured Electric Jet Ski & Aqua Kart",
     model: "RUVO One — Electric Water-Kart & Hydro-Jet",
     heroBadge: "INDIA'S FIRST MANUFACTURED ELECTRIC JET SKI",
+    logo: "assets/images/logo.svg",
+    logoMark: "assets/images/logo-mark.svg",
+    favicon: "assets/images/favicon.svg",
   },
 
   // Pricing
