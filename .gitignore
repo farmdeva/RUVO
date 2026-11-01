@@ -2,3 +2,9 @@
 .tempmediaStorage/
 scratch/
 Thumbs.db
+
+# Pitch Deck & Exported Presentation Documents
+*.pdf
+pitch-deck.html
+RUVO_One_Pitch_Deck*
+
