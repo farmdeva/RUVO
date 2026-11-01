@@ -112,6 +112,11 @@ function initHeaderNavigation() {
     menuToggle.addEventListener("click", () => toggleDrawer());
     drawerBackdrop.addEventListener("click", () => toggleDrawer(false));
 
+    const drawerCloseBtn = document.getElementById("mobile-drawer-close");
+    if (drawerCloseBtn) {
+      drawerCloseBtn.addEventListener("click", () => toggleDrawer(false));
+    }
+
     // Close drawer when link clicked
     navLinks.forEach(link => {
       link.addEventListener("click", () => {

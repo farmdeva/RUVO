@@ -150,9 +150,12 @@
   <div class="mobile-drawer-backdrop" id="mobile-backdrop"></div>
   <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
     <div>
-      <div class="header-brand">
-        <img src="assets/images/logo-mark.svg" alt="RUVO Emblem" width="30" height="30">
-        <span class="brand-text">RUVO</span>
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="header-brand">
+          <img src="assets/images/logo-mark.svg" alt="RUVO Emblem" width="30" height="30">
+          <span class="brand-text">RUVO</span>
+        </div>
+        <button id="mobile-drawer-close" class="drawer-close-btn" aria-label="Close navigation">&times;</button>
       </div>
       <div class="mobile-nav-links">
         <a href="#vessel" class="mobile-nav-link">The Vessel</a>
@@ -461,6 +464,10 @@
 
       <!-- Real Commercial ROI Table (Hallmark Material Truth) -->
       <h3 style="font-size: 22px; margin-bottom: 16px;">Real Operational Economics: RUVO vs Imported Petrol PWC</h3>
+      <div class="table-scroll-hint">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9l-6 6M10 9l6 6M8 12h8"/></svg>
+        <span>Swipe horizontally to compare full data &rarr;</span>
+      </div>
       <div class="economics-table-container">
         <table class="economics-table">
           <thead>
@@ -595,6 +602,9 @@
 
       <div class="roadmap-card-frame">
         <img src="assets/images/ruvo-timeline.png" alt="RUVO Engineering &amp; Production Roadmap Timeline" class="roadmap-img" data-zoomable loading="lazy">
+      </div>
+      <div class="roadmap-mobile-hint">
+        <span>Tap timeline to expand and inspect full resolution</span>
       </div>
     </div>
   </section>
