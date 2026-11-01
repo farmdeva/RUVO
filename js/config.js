@@ -185,84 +185,80 @@ const RUVO_CONFIG = {
       id: "profile",
       name: "Side Profile",
       tag: "Pure Silhouette",
-      image: "assets/images/view-profile.png",
+      image: "assets/images/ruvo-side.png",
       description: "Clean waterline profile highlighting the 220 cm hydrodynamic hull and aerodynamic cowl.",
       hotspots: [
-        { top: "35%", left: "38%", title: "Steering Cockpit", desc: "Ergonomic helm with marine-grade steering wheel & integrated throttle." },
+        { top: "35%", left: "42%", title: "Ergonomic Helm", desc: "Automotive-style steering wheel with digital electric throttle." },
         { top: "60%", left: "75%", title: "Bow Entry", desc: "Flared wave-deflecting prow engineered for smooth chop handling." },
-        { top: "68%", left: "15%", title: "Aft Swim Platform", desc: "Non-slip teak-finish boarding deck with dual recessed grab handles." }
+        { top: "68%", left: "15%", title: "Aft Deck", desc: "Low-profile aft boarding platform for easy water access." }
       ]
     },
     {
       id: "bow",
       name: "Front Bow",
       tag: "Dynamic Stance",
-      image: "assets/images/view-bow.png",
+      image: "assets/images/ruvo-front.png",
       description: "Frontal aspect displaying aggressive spray rails, 99 cm beam, and protective forward windshield cowl.",
       hotspots: [
-        { top: "25%", left: "50%", title: "Aero Cowl & Console", desc: "Streamlined aerodynamic cowl deflector reducing spray at 40 km/h." },
+        { top: "28%", left: "50%", title: "Aero Cowl & Console", desc: "Streamlined aerodynamic cowl deflector reducing spray at 40 km/h." },
         { top: "45%", left: "50%", title: "Integrated Bow Handle", desc: "Molded forward handhold and non-skid textured front deck." },
-        { top: "72%", left: "50%", title: "V-Hull Entry", desc: "Deep deadrise hull entry with stepped chines for stable directional tracking." }
+        { top: "75%", left: "50%", title: "PE Deep-V Hull Entry", desc: "Stepped chines for razor-sharp go-kart carving tracking." }
+      ]
+    },
+    {
+      id: "left",
+      name: "Port Quarter",
+      tag: "Portside View",
+      image: "assets/images/ruvo-left.png",
+      description: "Port three-quarter perspective highlighting sleek hydrodynamic body lines and seating ergonomics.",
+      hotspots: [
+        { top: "42%", left: "45%", title: "Low-Slung Cockpit", desc: "Deep seating bucket with optimal center of gravity for carving stability." },
+        { top: "60%", left: "70%", title: "Hydrodynamic Chine", desc: "Durable rotomolded polyethylene hull deflects wake cleanly." }
+      ]
+    },
+    {
+      id: "right",
+      name: "Starboard Quarter",
+      tag: "Starboard View",
+      image: "assets/images/ruvo-right.png",
+      description: "Starboard perspective showcasing aerodynamic cowl contours and balanced naval proportions.",
+      hotspots: [
+        { top: "38%", left: "55%", title: "Precision Steering Helm", desc: "Direct mechanical linkage to jet nozzle for instant response." },
+        { top: "68%", left: "30%", title: "Direct-Drive Balance", desc: "Neutral buoyancy line providing rock-solid stability even at rest." }
       ]
     },
     {
       id: "stern",
       name: "Aft Stern",
       tag: "Jet Propulsion",
-      image: "assets/images/view-stern.png",
-      description: "Rear transom view showcasing the integrated jet intake tunnel and low-profile teak swim step.",
+      image: "assets/images/ruvo-rear.png",
+      description: "Rear transom view showcasing the integrated jet intake tunnel and low-profile swim step.",
       hotspots: [
-        { top: "50%", left: "50%", title: "Quilted Battery Hatch", desc: "Double-hinged diamond-pattern upholstered module cover." },
-        { top: "72%", left: "50%", title: "Teak Boarding Deck", desc: "Teak-style marine EVA traction platform with flush tie-down points." },
-        { top: "90%", left: "50%", title: "Water-Jet Nozzle", desc: "12 kW submerged water-jet output for impellor-driven propulsion." }
+        { top: "45%", left: "50%", title: "Quick-Release Battery Bay", desc: "Houses 5.8 kWh ternary lithium pack with secure tool-free retention." },
+        { top: "68%", left: "50%", title: "Aft Swim Platform", desc: "Traction-textured boarding platform for effortless water re-entry." },
+        { top: "88%", left: "50%", title: "12 kW Water-Jet Nozzle", desc: "Fully enclosed direct-drive impeller with zero exposed blades for family safety." }
       ]
     },
     {
-      id: "overhead",
-      name: "Cockpit Interior",
-      tag: "Helm & Seating",
-      image: "assets/images/view-overhead.png",
-      description: "Overhead cockpit perspective detailing the floorboard, bucket console, and central battery enclosure.",
+      id: "sunset",
+      name: "Sunset Cruise",
+      tag: "On Water Experience",
+      image: "assets/images/ruvo-sunset.png",
+      description: "RUVO gliding gracefully in golden hour waters, embodying whisper-quiet zero-emission boating.",
       hotspots: [
-        { top: "60%", left: "30%", title: "Battery Enclosure", desc: "5.8 kWh ternary lithium safety buckle mounting compartment." },
-        { top: "50%", left: "70%", title: "Captain's Helm", desc: "Centralized responsive steering assembly with safety cutoff key." }
+        { top: "50%", left: "50%", title: "Sunset Adventure", desc: "Quiet electric hydro-jet gliding silently across calm waters." }
       ]
     },
     {
-      id: "dash",
-      name: "Helm & Controls",
-      tag: "Precision Steering",
-      image: "assets/images/view-dash.png",
-      description: "Close-up of the automotive-inspired three-spoke helm and clean instrument console.",
+      id: "hero",
+      name: "Full Action",
+      tag: "Peak Performance",
+      image: "assets/images/ruvo-hero.png",
+      description: "Full-throttle electric propulsion delivering 40 km/h velocity with instantaneous electric torque.",
       hotspots: [
-        { top: "45%", left: "55%", title: "Three-Spoke Wheel", desc: "Marine-treated ergonomic wheel designed for one-hand or dual-hand high-speed maneuvers." },
-        { top: "60%", left: "80%", title: "Throttle Interface", desc: "Progressive digital throttle trigger with instant electric jet torque." }
+        { top: "40%", left: "60%", title: "12 kW Jet Thrust", desc: "Instant electric torque accelerating the 84 kg craft up to 40 km/h." },
+        { top: "88%", left: "30%", title: "Lightweight & Modular", desc: "Compact 220 cm hull fits in a standard pickup truck or SUV." }
       ]
-    },
-    {
-      id: "swim_platform",
-      name: "Aft Deck & Latch",
-      tag: "Craftsmanship Detail",
-      image: "assets/images/view-swim-platform.png",
-      description: "Detail of the diamond-stitched seat upholstery, safety buckles, and aft swim platform.",
-      hotspots: [
-        { top: "45%", left: "70%", title: "Safety Buckle Harness", desc: "Heavy-duty dual stainless buckle latches holding the battery enclosure tight." },
-        { top: "68%", left: "30%", title: "Teak Decking", desc: "Warm teak finish marine decking resistant to saltwater, UV, and heat." }
-      ]
-    },
-    {
-      id: "action_1",
-      name: "On Water — Cruise",
-      tag: "Dynamic Performance",
-      image: "assets/images/view-action-1.png",
-      description: "The craft skimming the surface at 35 km/h, illustrating quiet electric agility."
-    },
-    {
-      id: "action_2",
-      name: "On Water — Turn",
-      tag: "High-Speed Carving",
-      image: "assets/images/view-action-2.png",
-      description: "Sharp responsive cornering powered by direct water-jet vectoring."
     }
   ],
 
